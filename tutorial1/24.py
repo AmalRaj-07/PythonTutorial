@@ -1,0 +1,1 @@
+print([x for x in range(100, 1001) if sum(map(int, str(x))) % 9 == 0])
